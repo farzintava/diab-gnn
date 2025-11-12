@@ -1,0 +1,8 @@
+model: GAT           # GCN | GraphSAGE | GAT
+hidden_dim: 64
+num_layers: 2
+dropout: 0.3
+lr: 0.001
+batch_size: 512
+gat_heads: 4
+pool: change_weighted_mean  # mean | attention | change_weighted_mean

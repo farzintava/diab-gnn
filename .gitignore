@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Data & results
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+
+# Conda
+*.conda
+*.yml
+
+# Mac
+.DS_Store

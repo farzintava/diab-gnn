@@ -1,0 +1,12 @@
+seed: 42
+paths:
+  raw: data/raw.csv
+  processed_encounters: data/encounters.parquet
+  med_events: data/med_events.parquet
+  diag_events: data/diag_events.parquet
+target:
+  name: readmit_30d   # or mortality / long_los
+cv:
+  n_splits: 5
+  group_col: patient_nbr
+metrics: [auc, pr_auc, sens_at_spec_0p90, brier, ece]
