@@ -1,6 +1,6 @@
 seed: 42
 paths:
-  raw: data/raw.csv
+  raw: data/diabetic_data.csv
   processed_encounters: data/encounters.parquet
   med_events: data/med_events.parquet
   diag_events: data/diag_events.parquet
